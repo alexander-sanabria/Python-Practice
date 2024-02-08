@@ -1,8 +1,8 @@
 from pwn import *
 import paramiko
 
-host = "10.0.2.15"
-username = "kali"
+host = "TARGET IP"
+username = "HOST USER"
 attempts = 0
 
 with open("top-20-common-SSH-passwords.txt", "r") as password_list:
